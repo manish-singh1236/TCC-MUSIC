@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎼ADD ME TO YOUƦ GƦOUᴩ🎼",
+                text="🥀 ⁣𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 🥀",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎼ʜᴇʟᴘ🎼",
+                text="🥀 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 🥀",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="🎼ꜱᴇᴛᴛɪɴɢꜱ🎼", callback_data="settings_helper"
+                text="🥀 𝕊ᴇᴛᴛɪɴɢꜱ 🥀", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🎼ᴏᴡɴᴇʀ🎼", user_id=OWNER),
+                text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/FallenXMusic"),
             InlineKeyboardButton(
-                text="🎼ꜱᴜᴘᴘᴏʀᴛ🎼", url=config.SUPPORT_GROUP
+                text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,21 +38,25 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🎼ADD ME TO YOUƦ GƦOUᴩ🎼",
+                text="🥀 𓆩𝔸DD 𝕄E 𝕋O 𝕐OUƦ 𝔾ƦOUק𓆪 🥀",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-            )
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="🎼ʜᴇʟᴘ🎼", callback_data="settings_back_helper"
+                text="🥀 ℂᴏᴍᴍᴀɴᴅʟᴇℝ 🥀", callback_data="settings_back_helper"
             ),
-            InlineKeyboardButton(text="🎼ᴅᴇᴠᴇʟᴏᴘᴇʀ🎼", url="https://t.me/ll_ll_LegendHacker_IN_ll_ll")
+        ],
+        [
+            InlineKeyboardButton(text="🥀 𝕌ᴘᴅᴀᴛ𝔼 🥀", url=f"https://t.me/FallenXMusic"),
+            InlineKeyboardButton(
+                text="🥀 𝕊ᴜᴘᴘᴏʀ𝕋 🥀", url=f"{config.SUPPORT_GROUP}"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="🎼ᴄʜᴀɴɴᴇʟ🎼", url=config.SUPPORT_CHANNEL
-            ),
-            InlineKeyboardButton(text="🎼ᴏᴡɴᴇʀ🎼", user_id=OWNER)
+                    text="𓊈𒆜🎼𝔻eͥѵeͣlͫ𐍉קeℝ🎼𒆜𓊉", url=f"https://t.me/ll_ll_LegendHacker_IN_ll_ll"
+                )
         ],
      ]
     return buttons
