@@ -180,9 +180,9 @@ async def top_users_ten(client, CallbackQuery: CallbackQuery, _):
                 details = stats.get(items)
                 title = (details["title"][:35]).title()
                 if items == "telegram":
-                    msg += f"🥶 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/DevilsHeavenMF) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🥀 [ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/FALLEN_BOT_SUPPORT) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                 else:
-                    msg += f"📌 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                    msg += f"🥀 [{title}](https://www.youtube.com/watch?v={items}) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
 
             temp = (
                 _["gstats_4"].format(
@@ -272,23 +272,24 @@ async def overall_stats(client, CallbackQuery, _):
     else:
         ass = "ɴᴏ"
     cm = config.CLEANMODE_DELETE_MINS
-    text = f"""**ʙᴏᴛ's sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
+    text = f"""**🥀ʙᴏᴛ's sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
 
-**ᴍᴏᴅᴜʟᴇs:** {mod}
-**ᴄʜᴀᴛs:** {served_chats} 
-**ᴜsᴇʀs:** {served_users} 
-**ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
-**sᴜᴅᴏᴇʀs:** {sudoers} 
+**🥀ᴍᴏᴅᴜʟᴇs:** {mod}
+**🥀ᴄʜᴀᴛs:** {served_chats} 
+**🥀ᴜsᴇʀs:** {served_users} 
+**🥀ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
+**🥀sᴜᴅᴏᴇʀs:** {sudoers} 
+**🥀ꜱᴇʀᴠᴇʀ:** [ᴀᴍᴀᴢᴏɴ 64ɢʙ.](t.me/ll_ll_LegendHacker_IN_ll_ll)
     
-**ǫᴜᴇʀɪᴇs:** {total_queries} 
-**ᴀssɪsᴛᴀɴᴛs:** {assistant}
-**ᴀss ᴀᴜᴛᴏ ʟᴇᴀᴠᴇ:** {ass}
-**ᴄʟᴇᴀɴᴍᴏᴅᴇ:** {cm} ᴍɪɴᴜᴛᴇs
+**🥀ǫᴜᴇʀɪᴇs:** {total_queries} 
+**🥀ᴀssɪsᴛᴀɴᴛs:** {assistant}
+**🥀ᴀss ᴀᴜᴛᴏ ʟᴇᴀᴠᴇ:** {ass}
+**🥀ᴄʟᴇᴀɴᴍᴏᴅᴇ:** {cm} ᴍɪɴᴜᴛᴇs
 
-**ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ:** {play_duration} ᴍɪɴᴜᴛᴇs
-**ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴍɪᴛ:** {song} ᴍɪɴᴜᴛᴇs
-**ᴩʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ:** {playlist_limit}
-**ᴩʟᴀʏʟɪsᴛ ᴩʟᴀʏ ʟɪᴍɪᴛ:** {fetch_playlist}"""
+**🥀ᴅᴜʀᴀᴛɪᴏɴ ʟɪᴍɪᴛ:** {play_duration} ᴍɪɴᴜᴛᴇs
+**🥀ᴅᴏᴡɴʟᴏᴀᴅ ʟɪᴍɪᴛ:** {song} ᴍɪɴᴜᴛᴇs
+**🥀ᴩʟᴀʏʟɪsᴛ ʟɪᴍɪᴛ:** {playlist_limit}
+**🥀ᴩʟᴀʏʟɪsᴛ ᴩʟᴀʏ ʟɪᴍɪᴛ:** {fetch_playlist}"""
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
         await CallbackQuery.edit_message_media(
@@ -357,40 +358,40 @@ async def overall_stats(client, CallbackQuery, _):
     total_queries = await get_queries()
     blocked = len(BANNED_USERS)
     sudoers = len(await get_sudoers())
-    text = f""" **ʙᴏᴛ's sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
+    text = f""" **🥀ʙᴏᴛ's sᴛᴀᴛs ᴀɴᴅ ɪɴғᴏ:**
 
        <b><u>ʜᴀʀᴅᴡᴀʀᴇ</b><u/>
-**ᴍᴏᴅᴜʟᴇs:** {mod}
-**ᴩʟᴀᴛғᴏʀᴍ:** {sc}
-**ʀᴀᴍ:** {ram}
-**ᴩʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {p_core}
-**ᴛᴏᴛᴀʟ ᴄᴏʀᴇs:** {t_core}
-**ᴄᴩᴜ ғʀᴇǫᴜᴇɴᴄʏ:** {cpu_freq}
+**🥀ᴍᴏᴅᴜʟᴇs:** {mod}
+**🥀ꜱᴇʀᴠᴇʀ:** {sc}
+**🥀64ɢʙ-ʀᴀᴍ:** {ram}
+**🥀ᴩʜʏsɪᴄᴀʟ ᴄᴏʀᴇs:** {p_core}
+**🥀ᴛᴏᴛᴀʟ ᴄᴏʀᴇs:** {t_core}
+**🥀ᴄᴩᴜ ғʀᴇǫᴜᴇɴᴄʏ:** {cpu_freq}
 
        <b><u>sᴏғᴛᴡᴀʀᴇ</b><u/>
-**ᴩʏᴛʜᴏɴ :** {pyver.split()[0]}
-**ᴩʏʀᴏɢʀᴀᴍ :** {pyrover}
-**ᴩʏ-ᴛɢᴄᴀʟʟs :** {pytgver}
+**🥀ᴋᴀʟɪ-ʟɪɴᴜx :** {pyver.split()[0]}
+**🥀ꜱᴘᴏᴛɪꜰʏ :** {pyrover}
+**🥀ᴍᴜꜱɪᴄ-ᴛɢᴄᴀʟʟs :** {pytgver}
 
         <b><u>sᴛᴏʀᴀɢᴇ</b><u/>
-**ᴀᴠᴀɪʟᴀʙʟᴇ:** {total[:4]} GiB
-**ᴜsᴇᴅ:** {used[:4]} GiB
-**ғʀᴇᴇ:** {free[:4]} GiB
+**🥀ᴀᴠᴀɪʟᴀʙʟᴇ:** {total[:4]} GiB
+**🥀ᴜsᴇᴅ:** {used[:4]} GiB
+**🥀ғʀᴇᴇ:** {free[:4]} GiB
         
       <b><u>ᴄᴜʀʀᴇɴᴛ sᴛᴀᴛs</b><u/>
-**ᴄʜᴀᴛs:** {served_chats} 
-**ᴜsᴇʀs:** {served_users} 
-**ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
-**sᴜᴅᴏᴇʀs:** {sudoers} 
+**🥀ᴄʜᴀᴛs:** {served_chats} 
+**🥀ᴜsᴇʀs:** {served_users} 
+**🥀ʙʟᴏᴄᴋᴇᴅ:** {blocked} 
+**🥀sᴜᴅᴏᴇʀs:** {sudoers} 
 
       <b><u>ᴍᴏɴɢᴏ ᴅᴀᴛᴀʙᴀsᴇ</b><u/>
-**ᴜᴩᴛɪᴍᴇ:** {mongouptime[:4]} Days
-**sɪᴢᴇ:** {datasize[:6]} Mb
-**sᴛᴏʀᴀɢᴇ:** {storage} Mb
-**ᴄᴏʟʟᴇᴄᴛɪᴏɴs:** {collections}
-**ᴋᴇʏs:** {objects}
-**ǫᴜᴇʀɪᴇs:** `{query}`
-**ʙᴏᴛ ǫᴜᴇʀɪᴇs:** `{total_queries} `
+**🥀ᴜᴩᴛɪᴍᴇ:** {mongouptime[:4]} Days
+**🥀sɪᴢᴇ:** {datasize[:6]} Mb
+**🥀sᴛᴏʀᴀɢᴇ:** {storage} Mb
+**🥀ᴄᴏʟʟᴇᴄᴛɪᴏɴs:** {collections}
+**🥀ᴋᴇʏs:** {objects}
+**🥀ǫᴜᴇʀɪᴇs:** `{query}`
+**🥀ʙᴏᴛ ǫᴜᴇʀɪᴇs:** `{total_queries} `
     """
     med = InputMediaPhoto(media=config.STATS_IMG_URL, caption=text)
     try:
