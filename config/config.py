@@ -12,14 +12,14 @@ API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
 BOT_TOKEN = getenv("BOT_TOKEN", "2121214342:AAGMlHLIwcK2cV-tb0kCi9npuT7tahZaqb4")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://hnyx:mongo@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853541618"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ғᴀʟʟᴇɴ ダ ᴍᴜ𝕤ɪᴄ ダ 𝕃𝕖𝕘𝕖𝕟𝕕​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ғᴀʟʟᴇɴ2.0ダ ᴍᴜ𝕤ɪᴄ ダ𝕃𝕖𝕘𝕖𝕟𝕕​")
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5037053047").split())
 )
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/FallenXBots")
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/Y_RUS_SUPPORT")
+    "SUPPORT_GROUP", "https://t.me/FALLEN_BOT_SUPPORT")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "59006")
