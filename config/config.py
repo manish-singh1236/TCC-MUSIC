@@ -93,11 +93,11 @@ clean = {}
 
 autoclean = []
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/56d1760224589ee370186.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/d9c4eca81a3d97696dd02.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/56d1760224589ee370186.jpg",
+    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -107,22 +107,22 @@ PLAYLIST_IMG_URL = getenv(
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "assets/Global.jpeg",
+    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "assets/Audio.jpeg",
+    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "assets/Video.jpeg",
+    "https://te.legra.ph/file/354711e8d255477308a2d.jpg",
 )
 
 STREAM_IMG_URL = getenv(
@@ -193,7 +193,7 @@ if PLAYLIST_IMG_URL:
             sys.exit()
 
 if GLOBAL_IMG_URL:
-    if GLOBAL_IMG_URL != "assets/Global.jpeg":
+    if GLOBAL_IMG_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
         if not re.match("(?:http|https)://", GLOBAL_IMG_URL):
             print(
                 "[ERROR] - Your GLOBAL_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -202,7 +202,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/Stats.jpeg":
+    if STATS_IMG_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -211,7 +211,7 @@ if STATS_IMG_URL:
 
 
 if TELEGRAM_AUDIO_URL:
-    if TELEGRAM_AUDIO_URL != "assets/Audio.jpeg":
+    if TELEGRAM_AUDIO_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_AUDIO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_AUDIO_URL url is wrong. Please ensure that it starts with https://"
@@ -246,7 +246,7 @@ if YOUTUBE_IMG_URL:
 
 
 if TELEGRAM_VIDEO_URL:
-    if TELEGRAM_VIDEO_URL != "assets/Video.jpeg":
+    if TELEGRAM_VIDEO_URL != "https://te.legra.ph/file/354711e8d255477308a2d.jpg":
         if not re.match("(?:http|https)://", TELEGRAM_VIDEO_URL):
             print(
                 "[ERROR] - Your TELEGRAM_VIDEO_URL url is wrong. Please ensure that it starts with https://"
