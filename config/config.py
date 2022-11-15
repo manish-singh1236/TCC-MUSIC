@@ -17,7 +17,7 @@ OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5037053047").split())
 )
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FallenXBots")
+    "SUPPORT_CHANNEL", "https://t.me/FallenXMusic")
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", "https://t.me/FALLEN_BOT_SUPPORT")
 
