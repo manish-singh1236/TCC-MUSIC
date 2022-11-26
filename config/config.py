@@ -9,12 +9,12 @@ load_dotenv()
 
 API_ID = int(getenv("API_ID", "16201655"))
 API_HASH = getenv("API_HASH", "440ba807d2cdf696ca498d441e2a6b29")
-BOT_TOKEN = getenv("BOT_TOKEN", "2121214342:AAHRS2mg4UINrAoEO_lzMwR_PwYOq2xMnjI")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Legend:legendxd@cluster0.y9z7ufo.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001853541618"))
+BOT_TOKEN = getenv("BOT_TOKEN", "5296119740:AAHbfJyXCOJaC-cKTzLFNSSlK61g_aGtLJk")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Teameglemafia123:Teameglemafia@cluster0.zl3wz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001628575439"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ғᴀʟʟᴇɴ2.0ダ ᴍᴜ𝕤ɪᴄ ダ𝕃𝕖𝕘𝕖𝕟𝕕​")
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5037053047").split())
+    map(int, getenv("OWNER_ID", "5778117994").split())
 )
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/FallenXMusic")
@@ -75,8 +75,8 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 
 
-STRING1 = getenv("STRING_SESSION", "BQAZtS9Kyb1KFpN18WVPSGsHfYBAw761ck2VVZRhNy9shBz7YCfQjW5Hzf3JvapJGsLmkjpQ3hAhhXcPVqT58bC8gfp1mbX5Rp5DPiZ20NqXrpCmCC9gio-hM1J-_bNsau2woMGi6S_q8LjirxknPG1GVTA-vFIYLvd_51h7H-IkkR9aFm1AOrbYlMTq1m3RcLp9UQaGUDCUnZlIDPbmnthw3-VuNtigqroYYeOexKcqeT1EcX6HpvyCmwNL6MiClKAfyhAtuQNWNMMLaGoZ1z2eejZnlh6DyPXgcnnsdy6Shu2zYvs3qzTIY41JDhD241BUnSoy3_-yWPFaG0uVISoIAAAAAUbjsGwA")
-STRING2 = getenv("STRING_SESSION2", "AQBzluX3JSP6v-pZcu6w91rZGTboK6wMQoTSXmVzhxwkwTkc0xMQ9l_BtdhXGVljmigaEHcp7-SEu8mMqs2k6EYbJQx-7evcSpViEbIguPVRAJOBDl50uG-Xg6xvFr4tsVRvBbcE75CX-ggWchMVY5zjUtGSLc8drnRoizbeAL5OIWz5ECzzSM5otvv1OHVtSzHjG2BIygAuCp3tgmISqaWNgY_oOenQLy6lp57RlqMDapB4x15XIlkRvvpy4X5QX3gcv5adcODr59u5N-4QaXXaHk25UQ4aysgd-cqElDanCrlyESCF6eWg928kAQ30CQgQdNeVzFe7rXjrFmiReZpEAAAAAVUGtKUA")
+STRING1 = getenv("STRING_SESSION", "BQAyPCwQw1kxCpZIBXoPOVswWd-erKbDyxp0Vx-mDvU_UWkkQGfBvzxri-Vk5NN9-6jrBSK_2D8MQM8qHJa8dA8u9s9AG86_e5An-Y-wtI__bJprwsV6yPkaF4fRknCQXONeGpdFu9OUFnZpyAYjGKbdMS5c06VfXtVmDlC_W9cPuBVBnxBBs5TC52mZO_KdlqmxW4fLYOEgpeuk7H_KvEimsdQFv3P9z8qzH527mDNlGOoCA9F1hcuVON0S13b3qtXQaAUqgndwCaK0fEdSzeOKCg607ccIRPvc61yltm7_nLTTJBhpF5-5cR0GSmq8vOlEN39Y-oHC05EdgWVw0KeLAAAAATriLIQA")
+STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
